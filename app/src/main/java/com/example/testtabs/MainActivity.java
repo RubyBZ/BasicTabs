@@ -23,12 +23,22 @@ public class MainActivity extends AppCompatActivity {
         tabLayout = (TabLayout)findViewById(R.id.tabs);
         viewPager=(ViewPager)findViewById(R.id.view_pager);
 
-        tabLayout.addTab(tabLayout.newTab().setText("Art"));
-        tabLayout.addTab(tabLayout.newTab().setText("Games"));
-        tabLayout.addTab(tabLayout.newTab().setText("Trending"));
+        tabLayout.addTab(tabLayout.newTab().setText("Paris"));
+        tabLayout.addTab(tabLayout.newTab().setText("London"));
+        tabLayout.addTab(tabLayout.newTab().setText("Rome"));
+        tabLayout.addTab(tabLayout.newTab().setText("New York"));
+        tabLayout.addTab(tabLayout.newTab().setText("Hong Kong"));
+        tabLayout.addTab(tabLayout.newTab().setText("Singapore"));
+        tabLayout.addTab(tabLayout.newTab().setText("Dubai"));
+        tabLayout.addTab(tabLayout.newTab().setText("Bangkok"));
+        tabLayout.addTab(tabLayout.newTab().setText("Tokyo"));
+
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
 
         viewPager.setAdapter(myAdapter);
+        viewPager.setOffscreenPageLimit(3);
+        viewPager.setClipToPadding(false);
+        viewPager.setPageMargin(30);
 
         //Option 1
         //tabLayout.setupWithViewPager(viewPager);

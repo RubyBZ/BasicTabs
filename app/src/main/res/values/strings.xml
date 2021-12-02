@@ -2,4 +2,14 @@
     <string name="app_name">TestTabs</string>
     <string name="tab_text_1">Tab 1</string>
     <string name="tab_text_2">Tab 2</string>
+    <string name="paris">Paris</string>
+    <string name="bangkok">Bangkok</string>
+    <string name="dubai">Dubai</string>
+    <string name="hong_kong">Hong Kong</string>
+    <string name="london">London</string>
+    <string name="new_york">New York</string>
+    <string name="rome">Rome</string>
+    <string name="singapore">Singapore</string>
+    <string name="tokyo">Tokyo</string>
+    <string name="top_cities_in_the_world">Top Cities in the World</string>
 </resources>

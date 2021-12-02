@@ -10,14 +10,14 @@ import androidx.fragment.app.Fragment;
 
 import com.example.testtabs.R;
 
-public class GamesFragment extends Fragment {
+public class LondonFragment extends Fragment {
 
     @Override
     public View onCreateView(
             @NonNull LayoutInflater inflater, ViewGroup container,
             Bundle savedInstanceState) {
 
-        View view = inflater.inflate(R.layout.fragment_games, container, false);
+        View view = inflater.inflate(R.layout.fragment_london, container, false);
         return view;
     }
 }
